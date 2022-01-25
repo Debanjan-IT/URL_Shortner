@@ -21,7 +21,7 @@ const get_url_from_code = async (request, reply) => {
     }
     else {
         return {
-            status: "No url found Check the url provided."
+            status: "No url found. Check the url provided."
         }
     }
 }
