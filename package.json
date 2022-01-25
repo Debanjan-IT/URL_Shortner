@@ -1,0 +1,23 @@
+{
+  "name": "project-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "db-migrate": "^0.11.13",
+    "db-migrate-mysql": "^2.2.0",
+    "dotenv": "^14.3.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.14.0"
+  }
+}
